@@ -24,6 +24,7 @@
  git history . 2.txt 打印历史纪录到2.txt
  git commit -a -m 'tijiaop' 当文件已经被提交到暂存区之后可以直接从工作区提交到暂存区 -a 表示add
  git log 查看历史区版本号，通过版本号回滚到指定的版本git reset --hard 版本号=》回滚内容直接覆盖暂存区和工作区。
+ git log --graph --oneline 显示合并的图谱
  git reset --hard HEAD^ 回到上版本历史区=》暂存区=》工作区
  git reflog 查看所有版本信息
  git branch 分支查看
